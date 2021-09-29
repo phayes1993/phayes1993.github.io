@@ -1,0 +1,29 @@
+
+img.title-image{
+				animation-name: bulge;
+				animation-duration: 5s;
+				animation-timing-function: linear;
+				animation-iteration-count: infinite;
+			}
+			@keyframes bulge {
+				0%{
+					transform: scale(1, 1);
+				}
+				25% {
+					transform: scale(1.25, 1.25);
+				}
+				50% {
+					transform: scale(1.5, 1.5);
+				}
+				75% {
+					transform: scale(1.25, 1.25);
+				}
+				100%{
+					transform: scale(1, 1);
+				}
+			}
+body{
+	background-image: url("C:/Users/joeyi/OneDrive/Desktop/IT Project class/UI/bg.gif");
+	background-repeat: no-repeat;
+	background-size:100% auto;
+}
